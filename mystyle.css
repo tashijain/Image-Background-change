@@ -1,0 +1,27 @@
+html{
+    background-color: #990033;
+    text-align: center;
+    color: #ffe6ee;
+  }
+  canvas{
+    width: 300px;
+    border: 5px dashed #ffe6ee;
+    width: 30%; 
+  }
+  #fg{
+    margin-right: 30px;
+  }
+  p{
+    font-size: 120%;
+  }
+  #fgFile,#bgFile,#composite,#clr{
+    font-size: 80%;
+  }
+  #header{
+    background-color: #ffe6ee; 
+    margin: 0 auto;
+    padding: 15px;
+    color: #990033;
+  }
+  
+  

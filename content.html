@@ -1,0 +1,15 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1 id="header">Green Screen Website</h1>
+<p>Upload a foreground Image and a background Image. This algorithm is particularly suited to foreground images that have a color green in them. Thus, you can convert a picture with a green background to a picture having the background image as the background. The program would check for each green pixel in foreground image and replace it with the same pixel located in background image.</p>
+<canvas id="fg"></canvas>
+<canvas id="bg"></canvas>
+<p> Foreground Image:
+  <input type="file" multiple="false" accept="image/*" id="fgFile" onchange="loadforegroundImage()">
+</p>
+<p>Background Image:
+  <input type="file" multiple="false" accept="image/*" id="bgFile" onchange="loadbackgroundImage()">
+</p>
+<p>
+  <input type="button" value="Create composite" id="composite" onclick="doGreenScreen()">
+   <input type="button" value="Clear canvases" id="clr" onclick="clearCanvas()">
+</p>
